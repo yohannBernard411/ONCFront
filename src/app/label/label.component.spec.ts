@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ReverseButtonComponent } from './reverse-button.component';
+import { LabelComponent } from './label.component';
 
-describe('ReverseButtonComponent', () => {
-  let component: ReverseButtonComponent;
-  let fixture: ComponentFixture<ReverseButtonComponent>;
+describe('LabelComponent', () => {
+  let component: LabelComponent;
+  let fixture: ComponentFixture<LabelComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ReverseButtonComponent ]
+      declarations: [ LabelComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ReverseButtonComponent);
+    fixture = TestBed.createComponent(LabelComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

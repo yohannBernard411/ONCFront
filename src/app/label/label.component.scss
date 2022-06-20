@@ -1,0 +1,43 @@
+$blue: #207DFF;
+$green: #00BD56;
+$orange: #FF6337;
+$black: #000000;
+#labelImage{
+  width: 50vw;
+  max-width: 300px;
+  height: auto;
+}
+.container{
+  font-family: 'Courgette', cursive;
+}
+.myTitle{
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  font-family: 'Akronim', cursive;
+  color: $orange;
+}
+.myText{
+  font-family: 'Courgette', cursive;
+  margin: 0 20px;
+}
+.centrage{
+  width: 100%;
+  text-align: center;
+}
+#labelImage1{
+  width: 100%;
+  height: auto;
+}
+.mylogo{
+  width: 300px;
+  height: auto;
+  margin-top: 25px;
+}
+.my-list-style{
+  list-style: inside url('https://res.cloudinary.com/do3nu0tns/image/upload/v1596704467/fmkbhzebi41m234lkoav.png');
+  & li{
+    margin-bottom: 15px;
+    display: list-item;
+  }
+}

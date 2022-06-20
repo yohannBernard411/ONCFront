@@ -1,15 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { AccueilComponent } from './accueil/accueil.component';
-import { BoutiqueComponent } from './boutique/boutique.component';
-import { ArticlesComponent } from './articles/articles.component';
+import { WhoComponent } from './who/who.component';
+import { ConditionComponent } from '../../condition/condition.component';
+import { ContactComponent } from './contact/contact.component';
+import { LinComponent } from './lin/lin.component';
+import { LabelComponent } from './label/label.component';
 
 
 const routes: Routes = [
-  { path: 'accueil', component: AccueilComponent },
-  { path: 'boutique', component: BoutiqueComponent },
-  { path: 'articles', component: ArticlesComponent },
+  { path: 'label', component: LabelComponent },
+  { path: 'lin', component: LinComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'condition', component: ConditionComponent },
+  { path: 'who', component: WhoComponent },
   { path: 'home', component: HomeComponent },
   { path: '**', redirectTo: '/home' }
 ];

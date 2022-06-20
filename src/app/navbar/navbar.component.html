@@ -1,0 +1,51 @@
+<div class="navbar">
+  <div class="logo">
+    <img src="../../assets/images/logo.png">
+    <h1>
+      <p class="blue">Oce</p>
+      <p class="green">Nat</p>
+      <p class="orange">Creations</p>
+    </h1>
+  </div>
+  <div class="menu">
+    <ul class="list-menu">
+      <li class="accueil" (mouseenter)="enter($event)" (mouseleave)="leave($event)">
+        <button class="accueil-btn">Accueil</button>
+        <ul class="list-accueil">
+          <li><a routerLink="/who" routerLinkActive="active">Qui sommes nous?</a></li>
+          <li><a routerLink="/condition" routerLinkActive="active">Conditions de vente</a></li>
+          <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+          <li>Connexion</li>
+        </ul>
+      </li>
+
+      <li class="boutique" (mouseenter)="enter($event)" (mouseleave)="leave($event)">
+        <button class="boutique-btn">Boutique</button>
+        <ul class="list-boutique">
+          <li>Produits zéro déchets</li>
+          <li>Collection été 2020</li>
+          <li>Accessoires</li>
+        </ul>
+      </li>
+
+      <li class="articles" (mouseenter)="enter($event)" (mouseleave)="leave($event)">
+        <button class="articles-btn">Artiucles</button>
+        <ul class="list-articles">
+          <li>Intérets de la laine</li>
+          <li><a routerLink="/lin" routerLinkActive="active">La laine et autres matières</a></li>
+          <li>Inovations textiles</li>
+          <li><a routerLink="/label" routerLinkActive="active">Les Labels</a></li>
+          <li>Liens</li>
+          <li>Veste Spitzberg</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="options">
+    <ul class="list-options">
+      <li><a routerLink="/connexion" routerLinkActive="active" ariaCurrentWhenActive="page"><mat-icon aria-label="Connexion" >face</mat-icon></a><p class="connexion-text">Connexion</p></li>
+      <li><a routerLink="/langue" routerLinkActive="active" ariaCurrentWhenActive="page"><mat-icon aria-label="Langue">outlined_flag</mat-icon></a><p class="langue-text">Langue</p></li>
+      <li><a routerLink="/panier" routerLinkActive="active" ariaCurrentWhenActive="page"><mat-icon aria-label="Panier">shopping_cart</mat-icon></a><p class="panier-text">Panier</p></li>
+    </ul>
+  </div>
+</div>  

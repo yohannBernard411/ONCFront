@@ -1,0 +1,110 @@
+ //variables couleurs
+ $blue: #207DFF;
+ $green: #00BD56;
+ $orange: #FF6337;
+ $black: #000000;
+ 
+ *{
+   margin: 0;
+   padding: 0;
+ }
+ .navbar{
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 24vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.logo{
+  width: 25vw;
+  height: 24vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  img{
+    width: 80px;
+    height: 80px;
+  }
+}
+.blue, .green, .orange{
+  display: inline;
+}
+.blue{
+  color: $blue;
+}
+.green{
+  color: $green;
+}
+.orange{
+  color: $orange;
+}
+h1{
+  font-family: 'Akronim', cursive;
+  display: inline;
+  font-size: 32px;
+}
+.menu{
+  width: 50vw;
+}
+.options{
+  width: 25vw;
+}
+.list-menu, .list-options{
+  width: 100%;
+  height: 24vh;
+  font-size: 16px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  a{
+    list-style-type: none;
+    text-decoration: none;
+    color: $black;
+    mat-icon{
+      width: 34px;
+      height: 34px;
+      font-size: 34px;
+    }
+  }
+}
+.list-menu li, .list-options li{
+  display: inline-block;
+}
+.list-options li p{
+  display: none;
+  position: relative;
+}
+.list-options li:hover p{
+  display: block;
+}
+.list-accueil li, .list-boutique li, .list-articles li{
+  display: list-item;
+}
+.list-accueil, .list-boutique, .list-articles{
+  display: none;
+  position: absolute;
+  top: 13vh;
+  list-style-type: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
+  padding: 15px;
+}
+.accueil:hover > .list-accueil{
+  display: block;
+}
+.list-accueil:hover{
+  display: block;
+}
+.boutique:hover > .list-boutique{
+  display: block;
+}
+.articles:hover > .list-articles{
+  display: block;
+}

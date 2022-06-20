@@ -1,0 +1,46 @@
+$blue: #207DFF;
+$green: #00BD56;
+$orange: #FF6337;
+$black: #000000;
+
+.home_title{
+  color: $green;
+  text-align: center;
+  height: 10vh;
+  font-size: 10vh;
+  padding-top: 5vh;
+  font-family: 'Akronim', cursive;
+}
+.container{
+  font-family: 'Courgette', cursive;
+}
+#who-page{
+  text-align: justify;
+  width: 70vw;
+  margin-left: 15vw;
+}
+.img-centre{
+  text-align: center;
+}
+.home_who_img{
+  width: 900px;
+  height: 500px;
+  margin-bottom: 20px;
+}
+.my-list-style{
+  list-style: inside url('https://res.cloudinary.com/do3nu0tns/image/upload/v1596704467/fmkbhzebi41m234lkoav.png');
+  & li{
+    margin-bottom: 15px;
+    display: list-item;
+  }
+}
+.signature{
+  float: right;
+  margin-bottom: 80px;
+}
+.my-justify{
+  text-align: center;
+}
+.bottom-space{
+  padding-bottom: 20px;
+}

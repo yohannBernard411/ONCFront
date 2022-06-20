@@ -5,19 +5,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import {MatIconModule} from '@angular/material/icon';
-import { ReverseButtonComponent } from './reverse-button/reverse-button.component';
-import { AccueilComponent } from './accueil/accueil.component';
-import { BoutiqueComponent } from './boutique/boutique.component';
-import { ArticlesComponent } from './articles/articles.component';
+import { WhoComponent } from './who/who.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { ConditionComponent } from '../../condition/condition.component';
+import { ContactComponent } from './contact/contact.component';
+import { LinComponent } from './lin/lin.component';
+import { LabelComponent } from './label/label.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ReverseButtonComponent,
-    AccueilComponent,
-    BoutiqueComponent,
-    ArticlesComponent
+    WhoComponent,
+    NavbarComponent,
+    ConditionComponent,
+    ContactComponent,
+    LinComponent,
+    LabelComponent
   ],
   imports: [
     BrowserModule,
